@@ -1,6 +1,8 @@
 * { box-sizing: border-box; -moz-box-sizing: border-box; }
-body { font-family: sans-serif; background: white; color: #333; }
+body { font-family: 'Varela', sans-serif; background: white; color: #333; }
 h1 { font-size: 1.6em; }
-p { margin: 1.5em; }
-.content { max-width: 500px; margin: 20px auto; }
+p { margin: 0.5em; line-height: 1.5em; }
+a { color: #C40; text-decoration: none; }
+em { background-color: black; color: white; padding: 4px; border-radius: 3px; letter-spacing: 0.15em; }
+.content { max-width: 600px; padding: 1em 1em; margin: auto; }
 .logo { width:100%; }
