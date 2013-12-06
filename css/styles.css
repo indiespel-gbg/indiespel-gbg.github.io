@@ -6,3 +6,6 @@ a { color: #C40; text-decoration: none; }
 em { background-color: black; color: white; padding: 4px; border-radius: 3px; letter-spacing: 0.15em; box-sizing: content-box; -moz-box-sizing: content-box; }
 .content { max-width: 600px; padding: 1em 1em; margin: auto; }
 .logo { width:100%; }
+nav { max-width: 600px; background-color: #DDD; margin: auto; }
+.nav-item { margin-top: 0px; padding: 1em; background-color: #CCC; display: block; }
+a:hover { color: #E90; }
