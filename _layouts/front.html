@@ -5,12 +5,12 @@ layout: base
 <img id="logo" class="logo" src="img/indiespel_gbg_white_torso.jpg">
 
 <nav id="navigation">
-	<a class="nav-item" href="#">Introduktion</a>
-	<a class="nav-item" href="#">Nyheter</a>
-	<a class="nav-item" href="#">Medlemmar</a>
-	<a class="nav-item" href="#">Kontakt</a>
-	<a class="nav-item" href="#">@indiegbg</a>
-	<a class="nav-item" href="#">Kalender</a>
+	<a class="nav-item" href="/">Introduktion</a>
+	<a class="nav-item" href="/nyheter.html">Nyheter</a>
+	<a class="nav-item" href="/medlemmar.html">Medlemmar</a>
+	<a class="nav-item" href="/kontakt.html">Kontakt</a>
+	<a class="nav-item" href="https://twitter.com/indieGBG">@indiegbg</a>
+	<a class="nav-item" href="/kalender.html">Kalender</a>
 </nav>
 
 <div class="information">
@@ -20,10 +20,10 @@ layout: base
 <script type="text/javascript">
 	function setup_logo() {
 		var logo = document.getElementById('logo');  
-		logo.style.position = "fixed";
+		//logo.style.position = "fixed";
 		var navigation = document.getElementById('navigation');
 		navigation.style.marginTop = (logo.height - 1) + "px";
 	}
-	document.body.onload = setup_logo;
 	window.onresize = setup_logo;
+	document.body.onload = setup_logo;
 </script>
