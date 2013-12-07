@@ -1,0 +1,21 @@
+.cal {
+    height: 300px;
+}
+
+@media all and (min-width: 400px) {
+    .cal {
+        height: 400px;
+    }
+}
+
+@media all and (min-width: 500px) {
+    .cal {
+        height: 500px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .cal {
+        height: 600px;
+    }
+}

@@ -29,6 +29,14 @@ a:hover { color: $secondary-color; }
     -moz-box-sizing: content-box;
 }
 
+// @media all and (min-width: 600px) {
+//     .information {
+//         -moz-columns:2;
+//         -webkit-columns:2;
+//         columns:2;
+//     }
+// }
+
 footer {
     width: 100%;
     background-color: black;

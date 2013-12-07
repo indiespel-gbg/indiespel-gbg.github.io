@@ -1,0 +1,22 @@
+
+.person-list {
+	list-style-type: none;
+}
+
+.person-list li {
+    //background-color: $dark;
+    //color: white;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border-radius: 4px;
+    line-height: 1.5em;
+}
+
+.person-name {
+	width: 150px;
+}
+
+.person-description {
+	font-style: italic;
+	font-size: 0.8em;
+}
