@@ -14,11 +14,17 @@ em { background-color: black; color: white; padding: 4px; border-radius: 3px; le
 a { color: $primary-color; text-decoration: none; }
 a:hover { color: $secondary-color; }
 
-.content {
-    //background-color: white;
-    max-width: 600px; 
-    padding: 1em 0em; 
+.main-container {
+	max-width: 600px; 
+    padding: 0em 0em; 
     margin: 0px auto 0px auto; 
+}
+
+.information {
+    background-color: white;
+    padding: 1.5em;
+    box-sizing: content-box; 
+    -moz-box-sizing: content-box;
 }
 
 footer {
