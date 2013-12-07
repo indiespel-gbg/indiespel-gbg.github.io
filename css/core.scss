@@ -11,8 +11,8 @@ h1 { font-size: 1.6em; }
 p { margin: 0.5em; line-height: 1.5em; }
 em { background-color: black; color: white; padding: 4px; border-radius: 3px; letter-spacing: 0.15em; box-sizing: content-box; -moz-box-sizing: content-box; }
 
-a { color: black; text-decoration: none; }
-a:hover { color: #E90; }
+a { color: $primary-color; text-decoration: none; }
+a:hover { color: $secondary-color; }
 
 .content {
     //background-color: white;
