@@ -22,7 +22,7 @@ layout: base
 		var logo = document.getElementById('logo');  
 		logo.style.position = "fixed";
 		var navigation = document.getElementById('navigation');
-		navigation.style.marginTop = logo.height + "px";
+		navigation.style.marginTop = (logo.height - 1) + "px";
 	}
 	document.body.onload = setup_logo;
 	window.onresize = setup_logo;
