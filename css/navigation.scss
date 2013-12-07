@@ -18,10 +18,19 @@ nav {
 	font-size: 1.2em;
 }
 
-//background:linear-gradient(to bottom, #EEE , #DDD);
+@media all and (min-width: 600px) {
+	nav {
+		padding-left: 12px;
+	}
+	.nav-item {
+		font-size: 1.0em;
+		width: 16%;
+	}
+}
 
 .top-stop {
 	height: 10px;
 	width: 100%;
 	background-color: $dark;
 }
+
