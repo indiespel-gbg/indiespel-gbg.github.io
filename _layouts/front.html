@@ -10,13 +10,4 @@ layout: base
 	{{ content }}
 </div>
 
-<script type="text/javascript">
-	function setup_logo() {
-		var logo = document.getElementById('logo');  
-		//logo.style.position = "fixed";
-		var navigation = document.getElementById('navigation');
-		navigation.style.marginTop = (logo.height - 1) + "px";
-	}
-	window.onresize = setup_logo;
-	document.body.onload = setup_logo;
-</script>
+<script type="text/javascript" src="/js/setup_logo.js"></script>
