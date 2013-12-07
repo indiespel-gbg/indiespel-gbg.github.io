@@ -2,9 +2,9 @@
 layout: base
 ---
 
-<img class="logo" src="img/indiespel_gbg_white_torso.jpg">
+<img id="logo" class="logo" src="img/indiespel_gbg_white_torso.jpg">
 
-<nav>
+<nav id="navigation">
 	<a class="nav-item" href="#">Start</a>
 	<a class="nav-item" href="#">Medlemmar</a>
 	<a class="nav-item" href="#">L&auml;nkar</a>
@@ -16,3 +16,13 @@ layout: base
 <div class="information">
 	{{ content }}
 </div>
+
+<script type="text/javascript">
+	function setup_logo() {
+		var logo = document.getElementById('logo');  
+		//console.log("logo.height: " + logo.height);
+		var navigation = document.getElementById('navigation');
+		navigation.style.marginTop = logo.height + "px";
+	}
+	window.onresize = setup_logo;
+</script>
