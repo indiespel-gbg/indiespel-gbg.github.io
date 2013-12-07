@@ -9,8 +9,9 @@ function getStyle(id, styleProperty) {
 
 function setup_logo() {
 	// If css didn't load the position is static instead and this should not happen
+	var logo = document.getElementById('logo');
+	logo.style.position = "fixed";
 	if(getStyle("logo", "position") == "fixed") {
-		var logo = document.getElementById('logo');
 		var navigation = document.getElementById('navigation');
 		navigation.style.marginTop = (logo.height - 1) + "px";
 	}
