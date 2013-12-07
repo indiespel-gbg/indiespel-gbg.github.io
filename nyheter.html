@@ -3,6 +3,12 @@ title: Nyheter
 layout: front
 ---
 
-<p>
-Inga nyheter &auml;nnu.
-</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      	<em> {{ post.title }} </em> 
+      	<p class="post-date"> {{ post.date | date: "%-d %B %Y" }} </p>
+      	<p> {{ post.content }} </p>
+    </li>
+  {% endfor %}
+</ul>
