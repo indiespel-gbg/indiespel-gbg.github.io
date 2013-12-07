@@ -7,7 +7,6 @@ nav {
 .nav-item { 
 	color: $primary-color;
 	
-	//border: $primary-color solid 1px;
 	border-radius: 3px;
 
 	display: inline-block; 
@@ -20,3 +19,9 @@ nav {
 }
 
 //background:linear-gradient(to bottom, #EEE , #DDD);
+
+.top-stop {
+	height: 10px;
+	width: 100%;
+	background-color: $dark;
+}
