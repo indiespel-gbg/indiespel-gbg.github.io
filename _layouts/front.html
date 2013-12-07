@@ -20,9 +20,10 @@ layout: base
 <script type="text/javascript">
 	function setup_logo() {
 		var logo = document.getElementById('logo');  
-		//console.log("logo.height: " + logo.height);
+		logo.style.position = "fixed";
 		var navigation = document.getElementById('navigation');
 		navigation.style.marginTop = logo.height + "px";
 	}
+	document.body.onload = setup_logo;
 	window.onresize = setup_logo;
 </script>
