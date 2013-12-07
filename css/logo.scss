@@ -1,4 +1,6 @@
 .logo { 
+    z-index: -100;
+    //position: fixed;
 	width:100%; 
 	
 	-webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -6,6 +8,7 @@
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera */
             animation: fadein 2s;
+
 }
 @keyframes fadein {
     from { opacity: 0; }

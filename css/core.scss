@@ -1,8 +1,9 @@
-$primary-color: #C40;
+$primary-color: rgb(210, 68, 8);
 $secondary-color: #E90;
 
 // golden: rgb(252, 216, 122); rgb(248, 153, 68);
 // first: #C40 + #E90;
+// #F40
 
 * { box-sizing: border-box; -moz-box-sizing: border-box; }
 body { font-family: 'Varela', sans-serif; background: white; color: #333; }
@@ -13,4 +14,15 @@ em { background-color: black; color: white; padding: 4px; border-radius: 3px; le
 a { color: black; text-decoration: none; }
 a:hover { color: #E90; }
 
-.content { max-width: 600px; padding: 1em 1em; margin: auto; }
+.content {
+    //background-color: white;
+    max-width: 600px; 
+    padding: 1em 0em; 
+    margin: 0px auto 0px auto; 
+}
+
+footer {
+    margin-top: 1.5em;
+    width: 100%;
+    background-color: black;
+}
