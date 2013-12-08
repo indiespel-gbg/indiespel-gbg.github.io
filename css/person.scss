@@ -11,10 +11,19 @@
 }
 
 .person-name {
-	
+	letter-spacing: 0.08em;
+	font-size: 1.2em;
 }
 
-.person-description {
+.person-bio {
 	font-style: italic;
 	font-size: 0.8em;
+}
+
+.person-tag {
+	color: #CCC;
+	font-size: 0.8em;
+	border: 1px solid #DDD;
+	padding: 2px;
+	margin-right: 5px;
 }

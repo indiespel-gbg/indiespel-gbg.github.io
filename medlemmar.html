@@ -11,38 +11,33 @@ layout: front
 
 <p class="new-section"><em>V&aring;ra medlemmar</em></p>
 
+<optgroup>
+	<option>Alla</option>
+	<option>F&ouml;retag</option>
+	<option>Programmerare</option>
+</optgroup>
+
 <p>
 	<ul class="person-list">
+		{% for member in site.data.members %}
 		<li>
-			<div class="person-name">Edvard Rutstr&ouml;m</div >
-			<div class="person-description">Speldesigner och programmerare</div>
-			<a href="#">www.edvardrutstrom.com</a> 
-			<a href="#">@edebarudo</a>
+			<h3 class="person-name">
+				{{member.name}}
+			</h3 >
+			<div>
+				<span class="person-bio">{{member.bio}}</span>
+			</div>
+			<a a target="_blank" href="http://{{member.website}}">{{member.website}}</a>
+			{% if member.twitter %}
+				| <a target="_blank" href="https://twitter.com/{{member.twitter}}">@{{member.twitter}}</a>
+			{% endif %}
+			<div>
+				{% for tag in member.tags %}
+					<span class="person-tag">{{tag}}</span>
+				{% endfor %}
+			</div>
 		</li>
-
-		<li>
-			<div class="person-name">Johannes Gotl&eacute;n</div >
-			<div class="person-description">Kreativ programmerare</div>
-			<a href="#">johannes.gotlen.se</a>
-		</li>
-
-		<li>
-			<div class="person-name">Niklas &Aring;kerblad</div >
-			<div class="person-description">Konstn&auml;r, m&aring;lare och musiker</div>
-			<a href="#">www.elhuervo.tubmblr.com</a>
-		</li>
-
-		<li>
-			<div class="person-name">Peter Björklund</div >
-			<div class="person-description">Programmerare och speldesigner</div>
-			<a href="http://www.indiedeveloper.se/">indiedeveloper.se</a> <a href="https://twitter.com/peterbjorklund">@PeterBjorklund</a>
-		</li>
-
-		<li>
-			<div class="person-name">Erik Sved&auml;ng</div >
-			<div class="person-description">N&aringnting</div>
-			<a href="#">www.eriksvedang.com</a> <a href="#">@e_svedang</a>
-		</li>
+		{% endfor %}
 	</ul>
 </p>
 

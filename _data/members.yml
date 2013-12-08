@@ -1,0 +1,31 @@
+- name: Edvard Rutstr&ouml;m
+  bio: Speldesigner och programmerare
+  website: www.edvardrutstrom.com
+  twitter: edebarudo
+  tags: 
+  - privatperson
+  - programmerare
+
+- name: Free Lunch Design
+  bio: Creators of excellent games
+  website: www.freelunchdesign.com
+  twitter: freelunch
+  tags: f&ouml;retag
+
+- name: Johannes Gotl&eacute;n
+  bio: Kreativ programmerare
+  website: johannes.gotlen.se
+
+- name: Niklas &Aring;kerblad
+  bio: Konstn&auml;r och musiker
+  website: www.elhuervo.tubmblr.com
+
+- name: Peter Björklund
+  bio: Programmerare och speldesigner
+  website: indiedeveloper.se 
+  twitter: PeterBjorklund
+
+- name: Erik Sved&auml;ng
+  bio: N&aringnting
+  website: www.eriksvedang.com 
+  twitter: e_svedang

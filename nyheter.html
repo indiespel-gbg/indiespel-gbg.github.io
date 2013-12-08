@@ -4,11 +4,13 @@ layout: front
 ---
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      	<em> {{ post.title }} </em> 
-      	<p class="post-date"> {{ post.date | date: "%-d %B %Y" }} </p>
-      	<p> {{ post.content }} </p>
-    </li>
-  {% endfor %}
+	{% for post in site.posts %}
+	<li>
+		<p>
+			<em> {{ post.title }} </em> 
+			<p class="post-date"> {{ post.date | date: "%-d %B %Y" }} </p>
+			<p> {{ post.content }} </p>
+		</p>
+	</li>
+	{% endfor %}
 </ul>
