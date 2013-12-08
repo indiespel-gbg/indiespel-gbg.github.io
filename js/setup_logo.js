@@ -8,13 +8,13 @@ function getStyle(id, styleProperty) {
 }
 
 function setup_logo() {
-	// If css didn't load the position is static instead and this should not happen
-	var logo = document.getElementById('logo');
-	logo.style.position = "fixed";
-	if(getStyle("logo", "position") == "fixed") {
+	//if(getStyle("logo", "z-index") < 0) {
+		// Only do this if the css loaded properly
+		var logo = document.getElementById('logo');
+		logo.style.position = "fixed"; // do this later to avoid rendering bug on iOS
 		var navigation = document.getElementById('navigation');
 		navigation.style.marginTop = (logo.height - 1) + "px";
-	}
+	//}
 }
 
 window.onresize = setup_logo;
