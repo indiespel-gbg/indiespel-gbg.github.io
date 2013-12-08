@@ -1,4 +1,4 @@
-- name: Edvard Rutstr&ouml;m
+- name: Edvard Rutström
   bio: Speldesigner och programmerare, UX-designer
   website: www.edvardrutstrom.com
   twitter: edebarudo
@@ -10,15 +10,15 @@
   bio: Creators of excellent games
   website: www.freelunchdesign.com
   twitter: freelunch
-  tags: f&ouml;retag
+  tags: företag
 
-- name: Johannes Gotl&eacute;n
-  bio: Kreativ programmerare p&auml; Hello There
+- name: Johannes Gotlén
+  bio: Kreativ programmerare på Hello There
   website: johannes.gotlen.se
   tags:
   - programmerare
 
-- name: Niklas &Aring;kerblad
+- name: Niklas Åkerblad
   bio: Tavlore, El Huervo, Kometen, Clairvoyance, Else Heartbreak
   website: www.elhuervo.tubmblr.com
   tags:
@@ -32,7 +32,7 @@
   tags:
   - programmerare
 
-- name: Erik Sved&auml;ng
+- name: Erik Svedäng
   bio: Blueberry Garden, Kometen, Clairvoyance, Else Heartbreak
   website: www.eriksvedang.com 
   twitter: e_svedang
