@@ -64,8 +64,8 @@ layout: front
 <script type="text/javascript">
 	//var memberCounter = document.querySelector("#memberCounter");
 
-	var filter = document.querySelector("#filter");
-	filter.style.display = "inline"; // show the filter since js is enabled	
+	//var filter = document.querySelector("#filter");
+	//filter.style.display = "inline"; // show the filter since js is enabled	
 
 	function randomizeOrder() {
 		var members = document.getElementsByClassName("member");
@@ -75,6 +75,7 @@ layout: front
 		memberList.innerHTML = "";
 
 		_.map(shuffledMembers, function(member) {
+			//var tags = member.
 			memberList.appendChild(member);
 		});
 	}	
