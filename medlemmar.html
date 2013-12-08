@@ -10,22 +10,23 @@ layout: front
 </p>
 
 <p class="new-section"><em>V&aring;ra medlemmar</em></p>
-
-<optgroup>
-	<option>Alla</option>
-	<option>F&ouml;retag</option>
-	<option>Programmerare</option>
-</optgroup>
-
+<p id="filter"> 
+	<a href="">Alla</a> |
+	<a href="">F&ouml;retag</a> |
+	<a href="">Ljud</a> |
+	<a href="">Grafik</a> |
+	<a href="">Kod</a> |
+	<a href="">Design</a>
+</p>
 <p>
-	<ul class="person-list">
+	<ul class="member-list">
 		{% for member in site.data.members %}
-		<li>
-			<h3 class="person-name">
+		<li class="member">
+			<h3 class="member-name">
 				{{member.name}}
 			</h3 >
 			<div>
-				<span class="person-bio">{{member.bio}}</span>
+				<span class="member-bio">{{member.bio}}</span>
 			</div>
 			<a a target="_blank" href="http://{{member.website}}">{{member.website}}</a>
 			{% if member.twitter %}
@@ -33,7 +34,7 @@ layout: front
 			{% endif %}
 			<div>
 				{% for tag in member.tags %}
-					<span class="person-tag">{{tag}}</span>
+					<span class="member-tag">{{tag}}</span>
 				{% endfor %}
 			</div>
 		</li>
@@ -44,17 +45,37 @@ layout: front
 <p class="new-section"><em>V&auml;norganisationer</em></p>
 
 <p>
-	<ul class="person-list">
+	<ul class="member-list">
 		<li>
-			<div class="person-name">Dataspelsakademin</div >
-			<div class="person-description"></div>
+			<div class="member-name">Dataspelsakademin</div >
+			<div class="member-description"></div>
 			<a href="#">www.dataspelsakademin.com</a> 
 			<a href="#">@dataspel</a>
 		</li>
 		<li>
-			<div class="person-name">Collaboratory</div >
-			<div class="person-description"></div>
+			<div class="member-name">Collaboratory</div >
+			<div class="member-description"></div>
 			<a href="#">www.collaboratory.se</a> 
 		</li>
 	</ul>
 </p>
+
+<script type="text/javascript">
+	//var memberCounter = document.querySelector("#memberCounter");
+
+	var filter = document.querySelector("#filter");
+	filter.style.display = "inline"; // show the filter since js is enabled
+
+	var memberList = document.querySelector("memberList");
+	var members = document.getElementsByClassName("member");
+	console.log(members);
+	for (var i = members.length - 1; i >= 0; i--) {
+		var member = members[i];
+		//var tags = getElementsByClassName("person-tag");
+	};
+
+	function randomizeOrder() {
+
+	}	
+
+</script>
