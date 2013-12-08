@@ -60,22 +60,25 @@ layout: front
 	</ul>
 </p>
 
+<script type="text/javascript" src="js/underscore-min.js"></script>
 <script type="text/javascript">
 	//var memberCounter = document.querySelector("#memberCounter");
 
 	var filter = document.querySelector("#filter");
-	filter.style.display = "inline"; // show the filter since js is enabled
-
-	var memberList = document.querySelector("memberList");
-	var members = document.getElementsByClassName("member");
-	console.log(members);
-	for (var i = members.length - 1; i >= 0; i--) {
-		var member = members[i];
-		//var tags = getElementsByClassName("person-tag");
-	};
+	filter.style.display = "inline"; // show the filter since js is enabled	
 
 	function randomizeOrder() {
+		var members = document.getElementsByClassName("member");
+		var shuffledMembers = _.shuffle(members);
+		
+		var memberList = document.querySelector(".member-list");
+		memberList.innerHTML = "";
 
+		_.map(shuffledMembers, function(member) {
+			memberList.appendChild(member);
+		});
 	}	
+
+	randomizeOrder();
 
 </script>
