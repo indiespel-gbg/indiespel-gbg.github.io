@@ -3,4 +3,4 @@ title: Sajten &auml;r uppe!
 layout: front
 ---
 
-Vi har en sajt. Wehoo.
+Vi har en ny sajt – jippie!
