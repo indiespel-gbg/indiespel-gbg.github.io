@@ -12,7 +12,7 @@ nav {
 	padding: 0em;
 	
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 @media all and (min-width: 600px) {
@@ -22,6 +22,7 @@ nav {
 	.nav-item {
 		font-size: 1.0em;
 		width: 16%;
+		padding: 6px;
 	}
 }
 
