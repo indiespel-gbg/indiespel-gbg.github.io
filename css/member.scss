@@ -31,3 +31,16 @@
 .member-tags {
 	margin-top: 5px;
 }
+
+.filter-button {
+	border: 0px;
+	background-color: rgba(1.0, 1.0, 1.0, 0.0);
+	color: $primary-color;
+	padding: 0px;
+	font-size: 1.0em;
+}
+
+.filter-button:hover {
+	//text-decoration: underline;
+	color: $secondary-color;
+}

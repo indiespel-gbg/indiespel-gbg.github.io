@@ -8,17 +8,17 @@ layout: front
 	och bestämma vilken information de vill ha med. Mer information om detta finns <a href="/formular.html">här</a>.
 </p>
 <p>
-	<strong>Observera</strong> att listan är i slumpmässig ordning (ändras varje gång sidan laddas) och snart kommer man kunna filtrera på taggar också.
+	<strong>Observera</strong> att listan är i slumpmässig ordning (ändras varje gång sidan laddas) och nu kan man filtrera på taggar också.
 </p>
 
 <p class="new-section"><em>Våra medlemmar</em></p>
 <p id="filter"> 
-	<a href="">Alla</a> |
-	<a href="">Företag</a> |
-	<a href="">Ljud</a> |
-	<a href="">Grafik</a> |
-	<a href="">Kod</a> |
-	<a href="">Design</a>
+	<button class="filter-button" onclick='showAll();'>Alla</button> |
+	<button class="filter-button" onclick='onlyShow("företag");'>Företag</button> |
+	<button class="filter-button" onclick='onlyShow("ljudläggare");'>Ljud</button> |
+	<button class="filter-button" onclick='onlyShow("grafiker");'>Grafik</button> |
+	<button class="filter-button" onclick='onlyShow("programmerare");'>Kod</button> |
+	<button class="filter-button" onclick='onlyShow("designer");'>Design</button>
 </p>
 <p>
 	<ul class="member-list">
@@ -66,8 +66,8 @@ layout: front
 <script type="text/javascript">
 	//var memberCounter = document.querySelector("#memberCounter");
 
-	//var filter = document.querySelector("#filter");
-	//filter.style.display = "inline"; // show the filter since js is enabled	
+	var filter = document.querySelector("#filter");
+	filter.style.display = "inline"; // show the filter since js is enabled	
 
 	function randomizeOrder() {
 		var members = document.getElementsByClassName("member");
@@ -77,11 +77,32 @@ layout: front
 		memberList.innerHTML = "";
 
 		_.map(shuffledMembers, function(member) {
-			//var tags = member.
 			memberList.appendChild(member);
 		});
 	}	
 
 	randomizeOrder();
+
+	function showAll() {
+		var members = document.getElementsByClassName("member");
+		_.map(members, function(member) {
+			member.style.display = "block";
+		});
+	}
+
+	function onlyShow(tagName) {
+		var members = document.getElementsByClassName("member");
+		_.map(members, function(member) {
+			var tagDivs = member.getElementsByClassName("member-tag");
+			var tagContents = _.map(tagDivs, function(tag) {
+				return tag.innerHTML;
+			});
+			if(_.contains(tagContents, tagName)) {
+				member.style.display = "block";
+			} else {
+				member.style.display = "none";
+			}
+		});
+	}
 
 </script>
