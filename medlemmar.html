@@ -32,7 +32,7 @@ layout: front
 			{% if member.twitter %}
 				| <a target="_blank" href="https://twitter.com/{{member.twitter}}">@{{member.twitter}}</a>
 			{% endif %}
-			<div>
+			<div class="member-tags">
 				{% for tag in member.tags %}
 					<span class="member-tag">{{tag}}</span>
 				{% endfor %}

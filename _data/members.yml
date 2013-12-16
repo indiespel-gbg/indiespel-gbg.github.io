@@ -5,25 +5,7 @@
   tags: 
   - privatperson
   - programmerare
-
-- name: Free Lunch Design
-  bio: Creators of excellent games
-  website: www.freelunchdesign.com
-  twitter: freelunch
-  tags: företag
-
-- name: Johannes Gotlén
-  bio: Kreativ programmerare på Hello There
-  website: johannes.gotlen.se
-  tags:
-  - programmerare
-
-- name: Niklas Åkerblad
-  bio: Tavlor, El Huervo, Kometen, Clairvoyance, Else Heartbreak
-  website: www.elhuervo.tubmblr.com
-  tags:
-  - grafiker
-  - musiker
+  - Hello&nbsp;There
 
 - name: Peter Björklund
   bio: Programmerare och speldesigner. Spelbranchveteran.
@@ -31,6 +13,7 @@
   twitter: PeterBjorklund
   tags:
   - programmerare
+  - Outbreak&nbsp;Studios
   
 - name: Outbreak Studios
   bio: Creates beautiful, innovative games on open indie-platforms.
@@ -39,10 +22,12 @@
   tags: företag
 
 - name: Erik Svedäng
-  bio: Blueberry Garden, Kometen, Clairvoyance, Else Heartbreak
+  bio: Skapare av bland annat Blueberry Garden, Kometen, Clairvoyance och Else Heartbreak
   website: www.eriksvedang.com 
   twitter: e_svedang
   tags:
   - designer
   - programmerare
   - projektledare
+  - lärare
+  - företag
