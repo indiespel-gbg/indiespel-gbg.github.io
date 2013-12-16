@@ -37,10 +37,23 @@
 	background-color: rgba(1.0, 1.0, 1.0, 0.0);
 	color: $primary-color;
 	padding: 0px;
-	font-size: 1.0em;
+	margin: 0px;
+	font-size: 0.8em;
 }
 
 .filter-button:hover {
 	//text-decoration: underline;
 	color: $secondary-color;
+}
+
+.selected {
+	text-decoration: underline;
+}
+
+#filter-text {
+	
+}
+
+.warning {
+	
 }
