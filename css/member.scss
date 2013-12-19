@@ -37,8 +37,12 @@
 	background-color: rgba(1.0, 1.0, 1.0, 0.0);
 	color: $primary-color;
 	padding: 0px;
-	margin: 0px;
-	font-size: 0.8em;
+	margin: 0px 0px 0px 0px;
+	font-size: 1.0em;
+}
+
+.filter-button:first-child {
+	//margin-left: -8px;
 }
 
 .filter-button:hover {
@@ -50,8 +54,12 @@
 	text-decoration: underline;
 }
 
-#filter-text {
-	
+#filter {
+	margin-left: 5px;
+}
+
+.fix {
+
 }
 
 .warning {
