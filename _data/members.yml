@@ -1,17 +1,19 @@
 - name: Edvard Rutström
-  bio: Speldesigner och programmerare, UX-designer
-  website: www.edvardrutstrom.com
-  twitter: edebarudo
+  bio: Speldesigner och programmerare med förkärlek för interaktioner och det annorlunda.
+  website: edebarudo.tumblr.com
+  twitter: Edebarudo
   tags: 
   - privatperson
   - programmerare
-  - Hello&nbsp;There
+  - speldesigner
+  - Hello There
 
 - name: Peter Björklund
   bio: Programmerare och speldesigner. Spelbranchveteran.
   website: indiedeveloper.se 
   twitter: PeterBjorklund
   tags:
+  - privatperson
   - programmerare
   - Outbreak&nbsp;Studios
   
@@ -26,8 +28,9 @@
   website: www.eriksvedang.com 
   twitter: e_svedang
   tags:
+  - privatperson
   - designer
   - programmerare
-  - projektledare
   - lärare
+  - samordnare
   - företag
