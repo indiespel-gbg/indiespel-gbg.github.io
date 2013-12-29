@@ -1,33 +1,255 @@
-- name: Edvard Rutström
-  bio: Speldesigner och programmerare, UX-designer
-  website: www.edvardrutstrom.com
-  twitter: edebarudo
-  tags: 
-  - privatperson
-  - programmerare
-  - Hello&nbsp;There
 
 - name: Peter Björklund
   bio: Programmerare och speldesigner. Spelbranchveteran.
   website: indiedeveloper.se 
   twitter: PeterBjorklund
   tags:
-  - programmerare
+  - Programmerare
   - Outbreak&nbsp;Studios
-  
+
 - name: Outbreak Studios
   bio: Creates beautiful, innovative games on open indie-platforms.
   website: outbreakstudios.se
   twitter: OutbreakStudios
-  tags: företag
+  tags: Företag
 
 - name: Erik Svedäng
   bio: Skapare av bland annat Blueberry Garden, Kometen, Clairvoyance och Else Heartbreak
   website: www.eriksvedang.com 
   twitter: e_svedang
   tags:
-  - designer
-  - programmerare
-  - projektledare
-  - lärare
-  - företag
+  - Designer
+  - Programmerare
+  - Projektledare
+  - Lärare
+  - Företag
+
+- name: Edvard Rutström
+  bio: Speldesigner och programmerare, UX-designer
+  website: www.edvardrutstrom.com
+  twitter: edebarudo
+  tags: 
+  - Programmerare
+  - Hello&nbsp;There
+
+- name: Mårten Jonsson
+  bio: Spelmakare, designer, ljudnisse, och skapare av digital konst
+  website: http://www.jm-j.com
+  twitter: JMartenJ
+  tags:
+  - Företag
+  - Ljuddesigner
+  - Speldesigner
+  - Musiker
+  - Projektledare
+
+- name: Patrik Tegnander
+  bio: 2D och 3D grafiker, har jobbat på bla. Playstation Allstars Island (iOS/Android) och Stick It To The Man (PS Vita, PS3, PC)
+  website: patrik.tegnander.nu
+  twitter: 
+  tags:
+  - 3D-grafiker
+  - 2D-grafiker
+
+- name: Henrik Hörlin
+  bio: Gränssnittsdesigner med fokus på interaktion mellan system
+  website: www.affordance.se
+  twitter: 
+  tags:
+  - Företag
+  - Speldesigner
+  - Interfacedesigner
+  - Samordnare
+  - Groupie
+  - Affordance
+
+- name: Snutt Treptow
+  bio: Utvecklare med intresse för datagrafik, spelmusik, och speldesign. Pluggar interaktionsdesign på chalmers samt bedriver eget företag inom konst, design, technical artist, och utveckling.
+  website: 
+  twitter: 8bitdamage
+  tags:
+  - Företag
+  - Programmerare
+  - Speldesigner
+  - Musiker
+  - Treptow&nbsp;Art&nbsp;Studio
+
+- name: Martin Rasmusson
+  bio: 
+  website: 
+  twitter: 
+  tags:
+  - 3D-grafiker
+  - Animatör
+  - Leveldesigner
+  - Zoink&nbsp;Games
+
+- name: Jasmine Idun Lyman
+  bio: Designar labb för att stötta indie, producerar egna verk, har studerat spel historiskt mm.
+  website: www.storyarchitects.se
+  twitter: story_architect
+  tags:
+  - Företag
+  - Speldesigner
+  - Forskare
+  - Projektledare
+  - Experience designer
+  - Collaboratory
+  - Story&nbsp;architect
+  - Idun 
+
+- name: Olle Håkansson
+  bio: Programmerar och designar spel, hemma (Manly Games) och på jobbet (Image & Form).
+  website: http://www.manly-games.com
+  twitter: ollhax
+  tags:
+  - Företag
+  - Programmerare
+  - Speldesigner
+  - Projektledare
+  - Leveldesigner
+  - Image&nbsp;&&nbsp;Form
+  - Manly&nbsp;Games
+
+- name: Olle Kilström
+  bio: Projektledare på Dataspelsakademin
+  website: www.dataspelsakademin.org
+  twitter: ApanKarlsson
+  tags:
+  - Projektledare
+  - Samordnare
+
+- name: Niclas Berndtsson
+  bio: Programmerare
+  website: www.oceax.net
+  twitter: 
+  tags:
+  - Företag
+  - Programmerare
+
+- name: Konrad Petersson
+  bio: Musik/Ljud-designer
+  website: https://soundcloud.com/konrad-petersson
+  twitter: 
+  tags:
+  - Ljuddesigner
+  - Författare
+  - Speldesigner
+  - Musiker
+  - Projektledare
+  - Leveldesigner
+
+- name: Robert William-Olsson
+  bio: Vi på Falling Tree Sound Studio fokuserar på produktstärkande ljudläggning
+  website: http://fallingtree.se/
+  twitter: 
+  tags:
+  - Företag
+  - Ljuddesigner
+  - Musiker
+
+- name: Mathias Wahlin
+  bio: Programmer, musician. Co-founder of Starside. Previously AAA, now full-time indie.
+  website: http://starsidegames.se
+  twitter: fohx
+  tags:
+  - Företag
+  - Programmerare
+  - Speldesigner
+  - Musiker
+  - Projektledare
+  - Interfacedesigner
+  - Starside
+
+- name: Sebastian Strand
+  bio: Spel- och approgrammerare @ Image & Form på dagen, hobby-spelutvecklare på natten
+  website: 
+  twitter: SeruK_
+  tags:
+  - Programmerare
+  - Speldesigner
+  - Image&nbsp;&&nbsp;Form
+
+- name: Daniel Schneider
+  bio: Spelutvecklar på fritiden, realtidsvisualiserar på arbetstid. Inbiten Unity3D entusiast, mycket på jobbet och mycket hemma.
+  website: http://www.danielschneider.se
+  twitter: 
+  tags:
+  - 3D-grafiker
+  - Programmerare
+  - Speldesigner
+  - Animatör
+  - Musiker
+  - 2D-grafiker
+
+- name: Henrik Englund
+  bio: 
+  website: www.thejourneydown.com
+  twitter: henrik_englund
+  tags:
+  - Skygoblin
+
+- name: Stellan Johansson
+  bio: 
+  website: weare1910.com
+  twitter: weare1910
+  tags:
+  - Företag
+  - Interfacedesigner
+  - Webdesigner
+
+- name: Adrian Gustafsson
+  bio: Gustlin Studios utvecklar spel till iOS, Android och PC. Många duktiga personer inblandade i flertalet spännde projekt. 
+  website: gustlinstudios.com
+  twitter: 
+  tags:
+  - Företag
+  - Speldesigner
+  - Projektledare
+  - PR
+  - Marketing
+  - Gustlin&nbsp;Studios
+
+- name: Mikael Forslind
+  bio: Arrangör av Retrospelsmässan i Göteborg. Pr-praktikant på Image & Form.
+  website: http://www.forslind.nu
+  twitter: MikaelForslind
+  tags:
+  - PR
+  - Image&nbsp;&&nbsp;Form
+
+- name: Ulf Hartelius
+  bio: Bitter och cynisk, men vill desperat förändra världen. Kanske genom att göra spel.
+  website: 
+  twitter: UlfHartelius
+  tags:
+  - Programmerare
+  - Speldesigner
+  - Image&nbsp;&&nbsp;Form
+
+- name: Kjell Håftén
+  bio: Grundare av Dataspelsakademin & Automat Indiearkad.
+  website: kjellhaften.tumblr.com
+  twitter: kjellhaften
+  tags:
+  - Projektledare
+  - 2D-grafiker
+  - Samordnare
+
+- name: Daniel Kvarfordt
+  bio: Student med stort spelintresse. Gör spel och program på fritiden. Utvecklar och säljer editorn PyxelEdit.
+  website: danikgames.com
+  twitter: Danik112
+  tags:
+  - Företag
+  - Programmerare
+  - Speldesigner
+  - 2D-grafiker
+
+- name: Nicolas Lewentorp
+  bio: Ljuddesigner och musiker is my trade.
+  website: www.linkedin.com/nicolaslewentorp
+  twitter: mrfusion3000
+  tags:
+  - Ljuddesigner
+  - Musiker
