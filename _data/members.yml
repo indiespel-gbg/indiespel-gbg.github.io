@@ -1,4 +1,3 @@
-
 - name: Peter Björklund
   bio: Programmerare och speldesigner. Spelbranchveteran.
   website: indiedeveloper.se 
@@ -25,11 +24,13 @@
   - Företag
 
 - name: Edvard Rutström
-  bio: Speldesigner och programmerare, UX-designer
-  website: www.edvardrutstrom.com
-  twitter: edebarudo
+  bio: Speldesigner och programmerare med förkärlek för interaktioner och det annorlunda.
+  website: edebarudo.tumblr.com
+  twitter: Edebarudo
   tags: 
+  - Privatperson
   - Programmerare
+  - Speldesigner
   - Hello&nbsp;There
 
 - name: Mårten Jonsson
@@ -253,3 +254,11 @@
   tags:
   - Ljuddesigner
   - Musiker
+=======
+  - privatperson
+  - designer
+  - programmerare
+  - lärare
+  - samordnare
+  - företag
+>>>>>>> d54f06ae352aea12d71d826ca4ae883aaf30fa8d
