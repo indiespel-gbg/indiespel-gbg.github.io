@@ -4,25 +4,21 @@ layout: front
 ---
 
 <p>
-	Den här sidan är bara ett test, alla ska få chansen att skriva sin egen text
-	och bestämma vilken information de vill visa. För att vara med, fyll i <a href="https://docs.google.com/forms/d/1dNNVC1KlmvvTDHkM-gP2yA8H3C0pntS24qCrpxeHbKI/viewform">detta formulär</a>. Både företag och privatpersoner går bra.
+	Här är en lista med folk som är med i Indiespel GBG. För att vara med, fyll i <a href="https://docs.google.com/forms/d/1dNNVC1KlmvvTDHkM-gP2yA8H3C0pntS24qCrpxeHbKI/viewform">detta formulär</a>. Både företag och privatpersoner går bra.
 </p>
 <p>
-	<strong>Observera</strong> att listan är i slumpmässig ordning (ändras varje gång sidan laddas) och nu kan man filtrera på taggar också.
+	<strong>Observera</strong> att listan är i slumpmässig ordning (ändras varje gång sidan laddas) och att man kan filtrera på taggar om man letar efter något speciellt.
 </p>
 
 <p class="new-section"><em>Våra medlemmar</em></p>
-<div id="filter" class="fix"> 
-	<button class="filter-button" onclick='showAll();'>Alla</button> |
-	<button class="filter-button" onclick='onlyShow("privatperson");'>Privatperson</button> |
-	<button class="filter-button" onclick='onlyShow("företag");'>Företag</button> |
-	<button class="filter-button" onclick='onlyShow("ljudläggare");'>Ljudläggare</button> |
-	<button class="filter-button" onclick='onlyShow("grafiker");'>Grafiker</button> |
-	<button class="filter-button" onclick='onlyShow("programmerare");'>Programmerare</button> |
-	<button class="filter-button" onclick='onlyShow("designer");'>Design</button> |
-	<button class="filter-button" onclick='onlyShow("musiker");'>Musik</button> |
-	fler taggar kommer att läggas till här...
-</div>
+
+<p>
+	Filtera på taggar:
+	<div id="filter" class="fix">
+		<button class="filter-button" onclick='showAll();'>Visa alla</button>
+	</div>
+</p>
+
 <p>
 	<ul class="member-list">
 		{% for member in site.data.members %}
@@ -71,6 +67,21 @@ layout: front
 
 	var filter = document.querySelector("#filter");
 	filter.style.display = "block"; // show the filter since js is enabled	
+
+	var tags = ["Företag", "Ljuddesigner", "Författare", "3D-grafiker", "Programmerare", "Speldesigner", "Animatör", "Forskare", "Musiker", "Projektledare", "2D-grafiker", "Leveldesigner", "Interfacedesigner", "PR", "Webdesigner", "Lärare", "Samordnare", "Groupie"]
+
+	// Add the filter buttons, their html should be:
+	// <button class="filter-button" onclick='onlyShow("Företag");'>Företag</button>
+	_.forEach(tags, function(tag) {
+		var pinne = document.createElement('span');
+		pinne.innerHTML = "|";
+		filter.appendChild(pinne);
+		var filterButton = document.createElement('button');
+		filterButton.innerHTML = tag;
+		filterButton.className = "filter-button";
+		filterButton.onclick = function() { onlyShow(tag); };
+		filter.appendChild(filterButton);
+	});
 
 	function randomizeOrder() {
 		var members = document.getElementsByClassName("member");
