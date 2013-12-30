@@ -1,7 +1,8 @@
 - name: Peter Björklund
   bio: Programmerare och speldesigner. Spelbranchveteran.
-  website: indiedeveloper.se 
+  website: indiedeveloper.se
   twitter: PeterBjorklund
+  email: peter.bjorklund@gmail.com
   tags:
   - Programmerare
   - Outbreak&nbsp;Studios
@@ -14,7 +15,7 @@
 
 - name: Erik Svedäng
   bio: Skapare av bland annat Blueberry Garden, Kometen, Clairvoyance och Else Heartbreak
-  website: www.eriksvedang.com 
+  website: www.eriksvedang.com
   twitter: e_svedang
   tags:
   - Speldesigner
@@ -27,7 +28,7 @@
   bio: Speldesigner och programmerare med förkärlek för interaktioner och det annorlunda.
   website: edebarudo.tumblr.com
   twitter: Edebarudo
-  tags: 
+  tags:
   - Programmerare
   - Speldesigner
   - Hello&nbsp;There
@@ -46,7 +47,7 @@
 - name: Patrik Tegnander
   bio: 2D och 3D grafiker, har jobbat på bla. Playstation Allstars Island (iOS/Android) och Stick It To The Man (PS Vita, PS3, PC)
   website: patrik.tegnander.nu
-  twitter: 
+  twitter:
   tags:
   - 3D-grafiker
   - 2D-grafiker
@@ -54,7 +55,7 @@
 - name: Henrik Hörlin
   bio: Gränssnittsdesigner med fokus på interaktion mellan system
   website: www.affordance.se
-  twitter: 
+  twitter:
   tags:
   - Företag
   - Speldesigner
@@ -65,7 +66,7 @@
 
 - name: Snutt Treptow
   bio: Utvecklare med intresse för datagrafik, spelmusik, och speldesign. # Pluggar interaktionsdesign på chalmers samt bedriver eget företag inom konst, design, technical artist, och utveckling.
-  website: 
+  website:
   twitter: 8bitdamage
   tags:
   - Företag
@@ -75,9 +76,9 @@
   - Treptow&nbsp;Art&nbsp;Studio
 
 - name: Martin Rasmusson
-  bio: 
-  website: 
-  twitter: 
+  bio:
+  website:
+  twitter:
   tags:
   - 3D-grafiker
   - Animatör
@@ -96,7 +97,7 @@
   - Experience designer
   - Collaboratory
   - Story&nbsp;architect
-  - Idun 
+  - Idun
 
 - name: Olle Håkansson
   bio: Programmerar och designar spel, hemma (Manly Games) och på jobbet (Image & Form).
@@ -122,7 +123,7 @@
 - name: Niclas Berndtsson
   bio: Programmerare
   website: www.oceax.net
-  twitter: 
+  twitter:
   tags:
   - Företag
   - Programmerare
@@ -130,7 +131,7 @@
 - name: Konrad Petersson
   bio: Musik/Ljud-designer
   website: soundcloud.com/konrad-petersson
-  twitter: 
+  twitter:
   tags:
   - Ljuddesigner
   - Författare
@@ -142,7 +143,7 @@
 - name: Robert William-Olsson
   bio: Vi på Falling Tree Sound Studio fokuserar på produktstärkande ljudläggning
   website: fallingtree.se
-  twitter: 
+  twitter:
   tags:
   - Företag
   - Ljuddesigner
@@ -162,7 +163,7 @@
 
 - name: Sebastian Strand
   bio: Spel- och approgrammerare @ Image & Form på dagen, hobby-spelutvecklare på natten
-  website: 
+  website:
   twitter: SeruK_
   tags:
   - Programmerare
@@ -172,7 +173,7 @@
 - name: Daniel Schneider
   bio: Spelutvecklar på fritiden, realtidsvisualiserar på arbetstid. Inbiten Unity3D entusiast, mycket på jobbet och mycket hemma.
   website: www.danielschneider.se
-  twitter: 
+  twitter:
   tags:
   - 3D-grafiker
   - Programmerare
@@ -182,14 +183,14 @@
   - 2D-grafiker
 
 - name: Henrik Englund
-  bio: 
+  bio:
   website: www.thejourneydown.com
   twitter: henrik_englund
   tags:
   - Skygoblin
 
 - name: Stellan Johansson
-  bio: 
+  bio:
   website: weare1910.com
   twitter: weare1910
   tags:
@@ -198,9 +199,9 @@
   - Webdesigner
 
 - name: Adrian Gustafsson
-  bio: Gustlin Studios utvecklar spel till iOS, Android och PC. Många duktiga personer inblandade i flertalet spännde projekt. 
+  bio: Gustlin Studios utvecklar spel till iOS, Android och PC. Många duktiga personer inblandade i flertalet spännde projekt.
   website: gustlinstudios.com
-  twitter: 
+  twitter:
   tags:
   - Företag
   - Speldesigner
@@ -331,7 +332,7 @@
 - name: Johannes 'johno' Norneby
   bio: neo-retro gaming!
   website: www.nornware.com
-  twitter: 
+  twitter:
   tags:
   - Företag
   - Ljuddesigner
