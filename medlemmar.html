@@ -23,8 +23,8 @@ layout: front
 	<ul class="member-list">
 		{% for member in site.data.members %}
 		<li class="member">
-			{% if member.email %}
-			<img src={{ member.email | to_gravatar }} />
+			{% if member.gravatar %}
+			<img src="http://www.gravatar.com/avatar/{{ member.gravatar }}" />
 			{% endif %}
 			<h3 class="member-name">
 				{{member.name}}
