@@ -4,7 +4,7 @@
 }
 
 .member-list li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     padding: 0.5em;
     border-radius: 4px;
     line-height: 1.5em;
@@ -22,14 +22,17 @@
 
 .member-tag {
 	color: #888;
-	font-size: 0.8em;
+	font-size: 0.7em;
 	border: 1px solid #CCC;
-	padding: 2px;
-	margin-right: 5px;
+	padding: 4px;
+	line-height: 0.7em;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	display: inline-block;
 }
 
 .member-tags {
-	margin-top: 5px;
+	
 }
 
 .filter-button {
@@ -56,16 +59,4 @@
 
 #filter {
 	margin-left: 5px;
-}
-
-.fix {
-
-}
-
-.warning {
-	
-}
-
-.pinne {
-	margin: 0px, 5px;
 }

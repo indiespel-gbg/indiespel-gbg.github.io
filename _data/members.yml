@@ -28,14 +28,13 @@
   website: edebarudo.tumblr.com
   twitter: Edebarudo
   tags: 
-  - Privatperson
   - Programmerare
   - Speldesigner
   - Hello&nbsp;There
 
 - name: Mårten Jonsson
   bio: Spelmakare, designer, ljudnisse, och skapare av digital konst
-  website: http://www.jm-j.com
+  website: www.jm-j.com
   twitter: JMartenJ
   tags:
   - Företag
@@ -65,7 +64,7 @@
   - Affordance
 
 - name: Snutt Treptow
-  bio: Utvecklare med intresse för datagrafik, spelmusik, och speldesign. Pluggar interaktionsdesign på chalmers samt bedriver eget företag inom konst, design, technical artist, och utveckling.
+  bio: Utvecklare med intresse för datagrafik, spelmusik, och speldesign. # Pluggar interaktionsdesign på chalmers samt bedriver eget företag inom konst, design, technical artist, och utveckling.
   website: 
   twitter: 8bitdamage
   tags:
@@ -101,7 +100,7 @@
 
 - name: Olle Håkansson
   bio: Programmerar och designar spel, hemma (Manly Games) och på jobbet (Image & Form).
-  website: http://www.manly-games.com
+  website: www.manly-games.com
   twitter: ollhax
   tags:
   - Företag
@@ -142,7 +141,7 @@
 
 - name: Robert William-Olsson
   bio: Vi på Falling Tree Sound Studio fokuserar på produktstärkande ljudläggning
-  website: http://fallingtree.se/
+  website: fallingtree.se/
   twitter: 
   tags:
   - Företag
@@ -151,7 +150,7 @@
 
 - name: Mathias Wahlin
   bio: Programmer, musician. Co-founder of Starside. Previously AAA, now full-time indie.
-  website: http://starsidegames.se
+  website: starsidegames.se
   twitter: fohx
   tags:
   - Företag
@@ -173,7 +172,7 @@
 
 - name: Daniel Schneider
   bio: Spelutvecklar på fritiden, realtidsvisualiserar på arbetstid. Inbiten Unity3D entusiast, mycket på jobbet och mycket hemma.
-  website: http://www.danielschneider.se
+  website: www.danielschneider.se
   twitter: 
   tags:
   - 3D-grafiker
@@ -213,7 +212,7 @@
 
 - name: Mikael Forslind
   bio: Arrangör av Retrospelsmässan i Göteborg. Pr-praktikant på Image & Form.
-  website: http://www.forslind.nu
+  website: www.forslind.nu
   twitter: MikaelForslind
   tags:
   - PR
@@ -221,7 +220,6 @@
 
 - name: Ulf Hartelius
   bio: Bitter och cynisk, men vill desperat förändra världen. Kanske genom att göra spel.
-  website: 
   twitter: UlfHartelius
   tags:
   - Programmerare
@@ -254,3 +252,92 @@
   tags:
   - Ljuddesigner
   - Musiker
+
+- name: Starside AB
+  bio: Making games for the space age!
+  website: starsidegames.se
+  twitter: starsidegames
+  tags:
+  - Företag
+
+- name: Anders Christiansson
+  bio: Game developer, sound designer, science geek and dad (twice!)
+  website: starsidegames.se
+  twitter: drakfluga
+  tags:
+  - Ljuddesigner
+  - Programmerare
+  - Speldesigner
+  - Musiker
+  - Starside
+
+- name: Peter Broqvist
+  bio: Skriver och grafikulerar tekniska grejer på Image & Form
+  website: www.imageform.se
+  twitter: oneeyedrabbit
+  tags:
+  - Författare
+  - 3D-grafiker
+  - Animatör
+  - 2D-grafiker
+  - Teknisk&nbsp;grafiker
+  - Image&nbsp;&&nbsp;Form
+
+- name: Patrik Liljecrantz
+  bio: En av grundarna till Free Lunch Design, tidigare känt som Muskedunder.
+  website: www.freelunchdesign.com
+  twitter: PLiljecrantz
+  tags:
+  - 3D-grafiker
+  - Programmerare
+  - Animatör
+  - Projektledare
+  - 2D-grafiker
+  - Free&nbsp;Lunch&nbsp;Design
+
+- name: Christoffer Enedahl
+  bio: Jobbar som spelprogrammerare på dagarna, farsa på kvällarna.
+  website: enedahl.com
+  twitter: drZool
+  tags:
+  - Programmerare
+  - Hello&nbsp;There
+
+- name: Hugo Bille
+  bio: Producent på Zoink, har regisserat They Breathe och Residue med The Working Parts
+  website: www.hugobille.com
+  twitter: HugoBille
+  tags:
+  - Författare
+  - Programmerare
+  - Speldesigner
+  - Projektledare
+  - Leveldesigner
+  - Voice&nbsp;actor/director
+  - Zoink
+  - The&nbsp;Working&nbsp;Parts
+
+- name: Shelby Cinca
+  bio: Brädspel och mer
+  website: www.shelbycinca.com
+  twitter: shelbycinca
+  tags:
+  - Företag
+  - Ljuddesigner
+  - Speldesigner
+  - Musiker
+  - Interfacedesigner
+  - Mysterian&nbsp;Games
+
+- name: Johannes 'johno' Norneby
+  bio: neo-retro gaming!
+  website: www.nornware.com
+  twitter: 
+  tags:
+  - Företag
+  - Ljuddesigner
+  - Programmerare
+  - Speldesigner
+  - Musiker
+  - Lärare
+  - Nornware&nbsp;AB

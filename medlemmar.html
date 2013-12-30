@@ -29,9 +29,14 @@ layout: front
 			<div>
 				<span class="member-bio">{{member.bio}}</span>
 			</div>
+			{% if member.website %}
 			<a a target="_blank" href="http://{{member.website}}">{{member.website}}</a>
+			{% endif %}
+			{% if member.twitter and member.website %}
+				 | 
+			{% endif %}
 			{% if member.twitter %}
-				| <a target="_blank" href="https://twitter.com/{{member.twitter}}">@{{member.twitter}}</a>
+				<a target="_blank" href="https://twitter.com/{{member.twitter}}">@{{member.twitter}}</a>
 			{% endif %}
 			<div class="member-tags">
 				{% for tag in member.tags %}
