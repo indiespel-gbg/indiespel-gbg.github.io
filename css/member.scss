@@ -10,6 +10,13 @@
     line-height: 1.5em;
 }
 
+.member img {
+    float: left;
+    margin: 6px;
+    max-height: 45px;
+    border-radius: 45px;
+}
+
 .member-name {
 	letter-spacing: 0.08em;
 	font-size: 1.2em;
@@ -32,7 +39,7 @@
 }
 
 .member-tags {
-	
+
 }
 
 .filter-button {
