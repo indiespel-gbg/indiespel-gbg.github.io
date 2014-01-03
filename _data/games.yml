@@ -1,0 +1,25 @@
+- name: Greedy Dwarf
+  bio: Tunnel Racer. Android version under development
+  website: sleepercell.se/games/greedy-dwarf
+  released: 03 jul, 2013
+  tags:
+  - Sleeper Cell
+  - Outbreak Studios
+  - iOS
+
+- name: Lightray
+  bio: Space exploration
+  website: starsidegames.se/projects
+  tags:
+  - Starside
+  - Space
+  - Strategy
+  - wip
+
+- name: Comet
+  bio: Endless Runner
+  tags:
+  - Outbreak Studios
+  - iOS
+  - Android
+  - wip
