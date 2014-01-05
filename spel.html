@@ -21,8 +21,10 @@ layout: front
 	<ul class="game-list">
 		{% for game in site.data.games %}
 		<li class="game">
-			{% if game.gravatar %}
-			<img src="http://www.gravatar.com/avatar/{{ member.gravatar }}?s=64" />
+			{% if game.screenshot %}
+			<img src="img/{{ game.screenshot }}.jpg" />
+			{% else %}
+			<img src="img/empty.jpg" />
 			{% endif %}
 			<h3>
 				{{game.name}}
