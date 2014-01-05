@@ -1,3 +1,10 @@
+function showAll(prefix) {
+	var members = document.getElementsByClassName(prefix);
+	_.map(members, function(member) {
+		member.style.display = "block";
+	});
+}
+
 function showFilter(filter, tags, prefix) {
 	//var memberCounter = document.querySelector("#memberCounter");
 
@@ -27,13 +34,6 @@ function showFilter(filter, tags, prefix) {
 	}
 
 	randomizeOrder();
-
-	function showAll() {
-		var members = document.getElementsByClassName(prefix);
-		_.map(members, function(member) {
-			member.style.display = "block";
-		});
-	}
 
 	function onlyShow(tagName) {
 		var members = document.getElementsByClassName(prefix);
