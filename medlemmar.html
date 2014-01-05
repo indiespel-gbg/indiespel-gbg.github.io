@@ -33,7 +33,7 @@ layout: front
 				<span class="member-bio">{{member.bio}}</span>
 			</div>
 			{% if member.website %}
-			<a a target="_blank" href="http://{{member.website}}">{{member.website}}</a>
+			<a target="_blank" href="http://{{member.website}}">{{member.website}}</a>
 			{% endif %}
 			{% if member.twitter and member.website %}
 				 |
@@ -69,7 +69,7 @@ layout: front
 		<li>
 			<div class="member-name">Retrospelsmässan</div >
 			<div class="member-description"></div>
-			<a href="http://www.retrospelsmassan.se">www.retrospelsmassan.se</a> | 
+			<a href="http://www.retrospelsmassan.se">www.retrospelsmassan.se</a> |
 			<a href="http://twitter.com/RSMGBG">@RSMGBG</a>
 			<br>
 			<a href="http://www.facebook.com/retrospelsmassan">Facebook</a> |
@@ -80,61 +80,11 @@ layout: front
 </p>
 
 <script type="text/javascript" src="js/underscore-min.js"></script>
+<script type="text/javascript" src="js/filter.js"></script>
 <script type="text/javascript">
-	//var memberCounter = document.querySelector("#memberCounter");
-
 	var filter = document.querySelector("#filter");
 	filter.style.display = "block"; // show the filter since js is enabled
 
 	var tags = ["Företag", "Ljuddesigner", "Författare", "3D-grafiker", "Programmerare", "Speldesigner", "Animatör", "Forskare", "Musiker", "Projektledare", "2D-grafiker", "Leveldesigner", "Interfacedesigner", "PR", "Webdesigner", "Lärare", "Samordnare"]
-
-	// Add the filter buttons, their html should be:
-	// <button class="filter-button" onclick='onlyShow("Företag");'>Företag</button>
-	_.forEach(tags, function(tag) {
-		var pinne = document.createElement('span');
-		pinne.innerHTML = " | ";
-		filter.appendChild(pinne);
-		var filterButton = document.createElement('button');
-		filterButton.innerHTML = tag;
-		filterButton.className = "filter-button";
-		filterButton.onclick = function() { onlyShow(tag); };
-		filter.appendChild(filterButton);
-	});
-
-	function randomizeOrder() {
-		var members = document.getElementsByClassName("member");
-		var shuffledMembers = _.shuffle(members);
-
-		var memberList = document.querySelector(".member-list");
-		memberList.innerHTML = "";
-
-		_.map(shuffledMembers, function(member) {
-			memberList.appendChild(member);
-		});
-	}
-
-	randomizeOrder();
-
-	function showAll() {
-		var members = document.getElementsByClassName("member");
-		_.map(members, function(member) {
-			member.style.display = "block";
-		});
-	}
-
-	function onlyShow(tagName) {
-		var members = document.getElementsByClassName("member");
-		_.map(members, function(member) {
-			var tagDivs = member.getElementsByClassName("member-tag");
-			var tagContents = _.map(tagDivs, function(tag) {
-				return tag.innerHTML;
-			});
-			if(_.contains(tagContents, tagName)) {
-				member.style.display = "block";
-			} else {
-				member.style.display = "none";
-			}
-		});
-	}
-
+	showFilter(filter, tags);
 </script>

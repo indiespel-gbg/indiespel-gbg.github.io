@@ -1,0 +1,60 @@
+---
+title: Spel
+layout: front
+---
+<p>
+	Här är en lista med spel som utvecklas i Indiespel GBG.
+</p>
+<p>
+	<strong>Observera</strong> att listan är i slumpmässig ordning (ändras varje gång sidan laddas) och att man kan filtrera på taggar om man letar efter något speciellt.
+</p>
+
+<p class="new-section"><em>Våra spel</em></p>
+
+<p>
+	Filtrera på taggar:
+	<div id="filter" class="fix">
+		<button class="filter-button" onclick="showAll();">Visa alla</button>
+	</div>
+</p>
+<p>
+	<ul class="game-list">
+		{% for game in site.data.games %}
+		<li>
+			{% if game.gravatar %}
+			<img src="http://www.gravatar.com/avatar/{{ member.gravatar }}?s=64" />
+			{% endif %}
+			<h3>
+				{{game.name}}
+			</h3>
+			<div>
+				<i>{{game.bio}}</i>
+			</div>
+			{% if game.website %}
+			<a target="_blank" href="http://{{game.website}}">{{game.website}}</a>
+			{% endif %}
+			{% if game.twitter and game.website %}
+				 |
+			{% endif %}
+			{% if game.twitter %}
+				<a target="_blank" href="https://twitter.com/{{game.twitter}}">@{{game.twitter}}</a>
+			{% endif %}
+			<div class="game-tags">
+				{% for tag in game.tags %}
+					<span class="game-tag">{{tag}}</span>
+				{% endfor %}
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</p>
+
+<script type="text/javascript" src="js/underscore-min.js"></script>
+<script type="text/javascript" src="js/filter.js"></script>
+<script type="text/javascript">
+	var filter = document.querySelector("#filter");
+	filter.style.display = "block"; // show the filter since js is enabled
+
+	var tags = ["Android", "iOS", "Windows"]
+	showFilter(filter, tags);
+</script>
