@@ -1,16 +1,16 @@
 nav {
-	margin: -5px auto 0px auto;
 	line-height: 2.5em;
 	background: $dark;
+	display: flex;
+	justify-content: space-around;
 }
 
-.nav-item {	
+.nav-item {
 	border-radius: 3px;
 
-	display: inline-block; 
-	width: 49%;
+	display: inline-block;
 	padding: 0em;
-	
+
 	text-align: center;
 	font-size: 1.1em;
 }
@@ -21,7 +21,6 @@ nav {
 	}
 	.nav-item {
 		font-size: 1.0em;
-		width: 16%;
 	}
 }
 
@@ -30,4 +29,3 @@ nav {
 	width: 100%;
 	background-color: $dark;
 }
-
