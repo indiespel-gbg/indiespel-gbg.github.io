@@ -1,4 +1,4 @@
-function showFilter(filter, tags) {
+function showFilter(filter, tags, prefix) {
 	//var memberCounter = document.querySelector("#memberCounter");
 
 	// Add the filter buttons, their html should be:
@@ -15,10 +15,10 @@ function showFilter(filter, tags) {
 	});
 
 	function randomizeOrder() {
-		var members = document.getElementsByClassName("member");
+		var members = document.getElementsByClassName(prefix);
 		var shuffledMembers = _.shuffle(members);
 
-		var memberList = document.querySelector(".member-list");
+		var memberList = document.querySelector("." + prefix + "-list");
 		memberList.innerHTML = "";
 
 		_.map(shuffledMembers, function(member) {
@@ -29,16 +29,16 @@ function showFilter(filter, tags) {
 	randomizeOrder();
 
 	function showAll() {
-		var members = document.getElementsByClassName("member");
+		var members = document.getElementsByClassName(prefix);
 		_.map(members, function(member) {
 			member.style.display = "block";
 		});
 	}
 
 	function onlyShow(tagName) {
-		var members = document.getElementsByClassName("member");
+		var members = document.getElementsByClassName(prefix);
 		_.map(members, function(member) {
-			var tagDivs = member.getElementsByClassName("member-tag");
+			var tagDivs = member.getElementsByClassName(prefix + "-tag");
 			var tagContents = _.map(tagDivs, function(tag) {
 				return tag.innerHTML;
 			});

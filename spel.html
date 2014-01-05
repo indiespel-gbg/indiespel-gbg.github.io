@@ -20,7 +20,7 @@ layout: front
 <p>
 	<ul class="game-list">
 		{% for game in site.data.games %}
-		<li>
+		<li class="game">
 			{% if game.gravatar %}
 			<img src="http://www.gravatar.com/avatar/{{ member.gravatar }}?s=64" />
 			{% endif %}
@@ -56,5 +56,5 @@ layout: front
 	filter.style.display = "block"; // show the filter since js is enabled
 
 	var tags = ["Android", "iOS", "Windows"]
-	showFilter(filter, tags);
+	showFilter(filter, tags, "game");
 </script>
