@@ -373,3 +373,66 @@
   - Musiker
   - 2D-grafiker
   - Måleri
+
+- name: Oscar Rydelius
+  bio: Vad du hör påverkar vad du tror att du ser
+  website: www.soundproof.se
+  twitter: soundproof_
+  gravatar: 
+  tags:
+  - Företag
+  - Ljuddesigner
+  - Musiker
+  - Soundproof
+
+- name: Ebba Edenström
+  bio: 
+  website: ebbaedenstrom.se
+  twitter: 
+  gravatar: 
+  tags:
+  - Animatör
+  - 2D-grafiker
+
+- name: Charlotte Heyman
+  bio: Animatör/grafiker. Från AAA till eget-producerat. Just nu projektledare på Frilagret. 
+  website: charlotteheyman.com
+  twitter: 
+  gravatar: 
+  tags:
+  - 3D-grafiker
+  - Speldesigner
+  - Animatör
+  - Projektledare
+  - 2D-grafiker
+
+- name: Johan Knutzen
+  bio: Utvecklare av Dark Nebula 2 och Devil's Attorney
+  website: http://www.senri.se
+  twitter: JohanKnutzen
+  gravatar: 
+  tags:
+  - Senri
+  - Programmerare
+  - Projektledare
+
+- name: Daniel Larsson
+  bio: Går datateknisk systemutveckling på Högskolan Väst.  Är pappa sen 15 maj 2013 och gift sedan  28/8 2010. Jobbar extra på ICA Focus. Är intresserad av arkadspel.
+  website: 
+  twitter: 
+  gravatar: 
+  tags:
+  - Programmerare
+  - Webdesigner
+
+- name: Robert Esbjörnsson
+  bio: Spel och level designer som jobbat på bland annat Grin och EA. Har nu det egna bolaget Secret Mission
+  website: www.leveldesign.se
+  twitter: wowbagger84
+  gravatar: 47f1850fb9d3abc9fcd46bf04c650dd2
+  tags:
+  - Secret Mission
+  - Programmerare
+  - Speldesigner
+  - Leveldesigner
+  - Webdesigner
