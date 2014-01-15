@@ -18,10 +18,14 @@ nav {
 @media all and (min-width: 600px) {
 	nav {
 		padding-left: 12px;
+		padding-right: 12px;
+		display: flex;
+        justify-content: space-between;
 	}
 	.nav-item {
 		font-size: 1.0em;
 		width: 16%;
+		width: inherit;
 	}
 }
 
