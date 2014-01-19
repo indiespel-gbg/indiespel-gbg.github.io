@@ -219,6 +219,8 @@
 - name: Mikael Forslind
   bio: Arrangör av Retrospelsmässan i Göteborg. Pr-praktikant på Image & Form.
   website: www.forslind.nu
+  email: mikael.g.forslind@gmail.com
+  gravatar: 1717d8ca7d3d3591ad4a6e8f867e8a5b
   twitter: MikaelForslind
   tags:
   - PR
@@ -378,7 +380,7 @@
   bio: Vad du hör påverkar vad du tror att du ser
   website: www.soundproof.se
   twitter: soundproof_
-  gravatar: 
+  gravatar:
   tags:
   - Företag
   - Ljuddesigner
@@ -386,19 +388,19 @@
   - Soundproof
 
 - name: Ebba Edenström
-  bio: 
+  bio:
   website: ebbaedenstrom.se
-  twitter: 
-  gravatar: 
+  twitter:
+  gravatar:
   tags:
   - Animatör
   - 2D-grafiker
 
 - name: Charlotte Heyman
-  bio: Animatör/grafiker. Från AAA till eget-producerat. Just nu projektledare på Frilagret. 
+  bio: Animatör/grafiker. Från AAA till eget-producerat. Just nu projektledare på Frilagret.
   website: charlotteheyman.com
-  twitter: 
-  gravatar: 
+  twitter:
+  gravatar:
   tags:
   - 3D-grafiker
   - Speldesigner
@@ -410,7 +412,7 @@
   bio: Utvecklare av Dark Nebula 2 och Devil's Attorney
   website: http://www.senri.se
   twitter: JohanKnutzen
-  gravatar: 
+  gravatar:
   tags:
   - Senri
   - Programmerare
@@ -418,9 +420,9 @@
 
 - name: Daniel Larsson
   bio: Går datateknisk systemutveckling på Högskolan Väst.
-  website: 
-  twitter: 
-  gravatar: 
+  website:
+  twitter:
+  gravatar:
   tags:
   - Programmerare
   - Webdesigner
