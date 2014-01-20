@@ -19,8 +19,12 @@ nav {
 	nav {
 		padding-left: 12px;
 		padding-right: 12px;
+	
 		display: flex;
         justify-content: space-between;
+
+        display: -webkit-flex;
+		-webkit-justify-content: space-between;
 	}
 	.nav-item {
 		font-size: 1.0em;
