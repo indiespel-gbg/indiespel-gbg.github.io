@@ -400,7 +400,8 @@
   bio: Animatör/grafiker. Från AAA till eget-producerat. Just nu projektledare på Frilagret.
   website: charlotteheyman.com
   twitter:
-  gravatar:
+  email: heyman.charlotte@gmail.com
+  gravatar: 87158854c0d970d2a4c993d167ff24f4
   tags:
   - 3D-grafiker
   - Speldesigner
@@ -438,7 +439,7 @@
   - Speldesigner
   - Leveldesigner
   - Webdesigner
-  
+
 - name: Tobias Lilja
   bio: Programmerare på Image & Form.
   twitter: tobbel
@@ -470,8 +471,8 @@
 - name: Christoffer Hindelid
   bio: Programmerare som just nu jobbar inom embedded programmering fast försöker koda spel på fritiden.
   twitter: chrizdekok
-  tags: 
+  tags:
   - Programmerare
   - Speldesigner
-  
-  
+
+
