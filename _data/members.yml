@@ -482,8 +482,15 @@
     - Leveldesigner
     - Image & Form
     
-- name:Daniel Ågren
-  tags: Programmerare, Speldesigner, Animatör, Projektledare, 2D-grafiker, pro jammer, krutech bitslap
+- name: Daniel Ågren
+  tags: 
+    - Programmerare
+    - Speldesigner
+    - Animatör
+    - Projektledare
+    - 2D-grafiker
+    - pro jammer
+    - krutech bitslap
   website: bitslap.se
   bio: Pro jammer och pixel artist	
   twitter: slapmybitsup	
